@@ -1,20 +1,25 @@
 /**
  * main - size of datatype
- * return: 0
+ *
+ * Return: nothing
  */
-include <stdio.h>
+#include <stdio.h>
+
 int main(void)
 {
 
 
+printf("Size of a char : %ld\n", sizeof(char));
 
-   printf("Size of int data type : %d\n",sizeof(int));
+printf("Size of an int : %ld\n", sizeof(int));
 
-   printf("Size of char data type : %d\n",sizeof(char));
+printf("Size of a long int : %ld\n", sizeof(long int));
 
-   printf("Size of float data type : %d\n",sizeof(float));
+printf("Size of a long long int : %ld\n", sizeof(long long int));
 
-   printf("Size of double data type : %d\n",sizeof(long));
+printf("size of a float : %ld\n", sizeof(float));
 
-   return 0;}
+return (0);
+
+}
 
