@@ -12,17 +12,24 @@ i = '0';
 
 while (i < '9')
 {
-for (i = '0' ; i <= '8' ; i++)
+for (i = '0' ; i <= '9' ; i++)
 
 {
 putchar(i);
-
+if (i < '9')
+{
 putchar(',');
 
 putchar(' ');
 }
+else
+{
+putchar('\n');
+
 }
-putchar('9');
+}
+
+}
 
 return (0);
 }
