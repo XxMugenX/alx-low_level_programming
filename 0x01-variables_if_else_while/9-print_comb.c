@@ -12,7 +12,7 @@ i = '0';
 
 while (i < '9')
 {
-for (i ; i <= '8' ; i++)
+for (i = '0' ; i <= '8' ; i++)
 
 {
 putchar(i);
