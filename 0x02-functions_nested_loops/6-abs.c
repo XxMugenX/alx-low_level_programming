@@ -9,8 +9,9 @@
  */
 int _abs(int)
 {
+int x;
 
-abs(int);
+abs(x);
 
 return (0);
 }
