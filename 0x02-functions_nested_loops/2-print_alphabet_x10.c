@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *main - jj
+ *man - jj
  *
  *Return: nothing
  */
 
-int main(void)
+int man(void)
 {
 
 print_alphabet_x10();
