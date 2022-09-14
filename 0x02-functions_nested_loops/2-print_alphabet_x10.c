@@ -1,19 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 /**
- *man - jj
+ *print_alphabet_x10 - ten lines
  *
- *Return: nothing
  */
-
-int man(void)
-{
-
-print_alphabet_x10();
-
-return (0);
-}
-
 void print_alphabet_x10(void)
 {
 int x;
