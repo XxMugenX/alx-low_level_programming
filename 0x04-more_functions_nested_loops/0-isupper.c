@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  *_isupper - returns 1 or 0 if tur or false
  *@c: char
