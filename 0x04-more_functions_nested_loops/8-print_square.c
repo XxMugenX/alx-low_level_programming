@@ -24,11 +24,10 @@ for (i = 1; i <= size; i++)
 {
 for (j = 1; j <= size; j++)
 {
-_putchar('#');
+_putchar(a);
 }
 _putchar('\n');
 }
 }
-_putchar('\n');
 return;
 }
