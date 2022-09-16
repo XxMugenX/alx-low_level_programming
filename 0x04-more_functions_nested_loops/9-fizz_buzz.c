@@ -7,6 +7,10 @@ int main(void)
 {
 int i;
 
+int a;
+
+a = 0;
+
 for (i = 1; i <= 100; i++)
 {
 if ((i % 3 == 0) && (i % 5 == 0))
@@ -22,7 +26,14 @@ putchar(' ');
 else if ((i % 5) == 0)
 {
 printf("Buzz");
+if (i == 100)
+{
+putchar(a);
+}
+else
+{
 putchar(' ');
+}
 }
 else
 {
