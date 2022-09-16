@@ -20,6 +20,10 @@ else
 {
 for (i = 1; i <= n; i++)
 {
+for (j = 2; j <= i; j++)
+{
+_putchar(' ');
+}
 _putchar(a);
 
 _putchar('\n');
