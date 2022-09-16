@@ -10,6 +10,10 @@ int i;
 
 int j;
 
+int a;
+
+a = 35;
+
 if (size <= 0)
 {
 _putchar('\n');
@@ -20,7 +24,7 @@ for (i = 1; i <= size; i++)
 {
 for (j = 1; j <= size; j++)
 {
-_putchar('#');
+_putchar(a);
 }
 _putchar('\n');
 }
