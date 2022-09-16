@@ -6,7 +6,11 @@
  */
 void print_diagonal(int n)
 {
-int i
+int i;
+
+int a;
+
+a = 92;
 
 if (n <= 0)
 {
