@@ -20,7 +20,7 @@ else
 {
 for (i = 1; i <= n; i++)
 {
-_putchar('\\');
+_putchar(a);
 }
 _putchar('\n');
 }
