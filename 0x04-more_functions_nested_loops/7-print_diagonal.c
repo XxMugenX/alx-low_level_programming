@@ -8,6 +8,8 @@ void print_diagonal(int n)
 {
 int i;
 
+int j;
+
 int a;
 
 a = 92;
