@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *print_to_98 - prints
  *
@@ -12,12 +13,12 @@ printf("%d", n);
 }
 if (n > 98)
 {
-	for (n; n >= 98; n--)
-	{
-	if (n > 98)
-	
+for (n; n >= 98; n--)
+{
+if (n > 98)
+{
 printf("%d, ", n);
-
+}
 if (n == 98)
 {
 printf("%d", n);
