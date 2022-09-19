@@ -15,5 +15,5 @@ z = x % 10;
 
 _putchar(z + '0');
 
-return (0);
+return (z);
 }
