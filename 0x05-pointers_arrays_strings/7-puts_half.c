@@ -13,9 +13,9 @@ int len;
 
 int n;
 
-n = len - 1;
-
 len = strlen(str);
+
+n = len - 1;
 
 if ((len % 2) == 0)
 {
