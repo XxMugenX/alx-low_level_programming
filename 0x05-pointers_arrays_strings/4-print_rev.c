@@ -14,8 +14,9 @@ int len;
 len = strlen(s);
 
 for (len; len > 0; len--)
-
+{
 _putchar(s[len]);
+}
 
 return;
 
