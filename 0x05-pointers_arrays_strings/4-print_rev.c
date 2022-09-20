@@ -20,6 +20,8 @@ for (i = len; i > 0; i--)
 _putchar(s[len]);
 }
 
+_putchar('\n');
+
 return;
 
 }
