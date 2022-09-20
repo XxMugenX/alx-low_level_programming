@@ -15,9 +15,13 @@ int len;
 
 len = strlen(s);
 
-for (i = len - 1; i >= 0; i--)
+for (i = 0; i < len / 2; i--)
 {
-_putchar(s[i]);
+temp = str1[i];
+
+str1[i] = str1[len - i - 1];
+
+str1[len - i - 1] = temp;
 }
 return;
 }
