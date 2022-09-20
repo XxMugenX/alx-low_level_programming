@@ -15,7 +15,7 @@ int n;
 
 len = strlen(str);
 
-n = len - 1;
+n = len - 2;
 
 if ((len % 2) == 0)
 {
