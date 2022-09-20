@@ -18,7 +18,7 @@ for (i = 0; i <= z - 1; i++)
 {
 printf("%d, ", a[i]);
 }
-printf("%d", a[i]);
+printf("%d\n", a[i]);
 
 return;
 }
