@@ -22,6 +22,4 @@ _putchar(s[len]);
 
 _putchar('\n');
 
-return;
-
 }
