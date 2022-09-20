@@ -14,7 +14,7 @@ int z;
 
 z = n;
 
-for (i = 0; i <= z - 1; i++)
+for (i = 0; i < z - 1; i++)
 {
 printf("%d, ", a[i]);
 }
