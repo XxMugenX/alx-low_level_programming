@@ -17,8 +17,6 @@ len = strlen(s);
 
 for (i = len; i > 0; i--)
 {
-char set;
-set = s[len];
 _putchar(s[i]);
 }
 
