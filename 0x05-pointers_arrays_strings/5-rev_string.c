@@ -19,11 +19,11 @@ len = strlen(s);
 
 for (i = 0; i < len / 2; i--)
 {
-temp = str1[i];
+temp = s[i];
 
-str1[i] = str1[len - i - 1];
+s[i] = s[len - i - 1];
 
-str1[len - i - 1] = temp;
+s[len - i - 1] = temp;
 }
 return;
 }
