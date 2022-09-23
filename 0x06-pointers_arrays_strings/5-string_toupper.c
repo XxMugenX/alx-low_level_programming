@@ -12,9 +12,13 @@ int j;
 
 int len;
 
+char *a;
+
+a = str;
+
 j = 0;
 
-while (str[j] != '\0')
+while (a[j] != '\0')
 {
 
 j++;
@@ -24,10 +28,10 @@ len = j;
 
 for (i = 0; i < j; i++)
 {
-if (str[i] >= 'a' && str[i] <= 'z')
+if (a[i] >= 'a' && a[i] <= 'z')
 {
-str[i] = str[i] - 'a' + 'A';
+a[i] = a[i] - 'a' + 'A';
 }
 }
-return (str);
+return (a);
 }
