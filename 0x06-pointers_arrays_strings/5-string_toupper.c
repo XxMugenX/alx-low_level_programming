@@ -28,6 +28,10 @@ if (str[i] >= 'a' && str[i] <= 'z')
 {
 str[i] = str[i] - 'a' + 'A';
 }
+else
+{
+return (str);
+}
 }
 return (str);
 }
