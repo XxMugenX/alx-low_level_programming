@@ -12,7 +12,11 @@ int i;
 
 i = 0;
 
-while (i < n)
+int j;
+
+j = n;
+
+while (i < j)
 {
 s[i] = b;
 
