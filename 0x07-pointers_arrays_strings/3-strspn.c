@@ -15,6 +15,8 @@ int j;
 
 len = 0;
 
+i = 0;
+
 while (s[i] != ' ')
 {
 for (j = 0; accept[j] != '\0'; j++)
