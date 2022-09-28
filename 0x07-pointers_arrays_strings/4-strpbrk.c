@@ -23,7 +23,7 @@ if (accept[j] == s[i])
 return (s);
 }
 }
-*s++;
+s++;
 }
 return (NULL);
 }
