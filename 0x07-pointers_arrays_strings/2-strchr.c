@@ -23,4 +23,5 @@ else
 {
 return (NULL);
 }
+return (s);
 }
