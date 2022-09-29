@@ -3,7 +3,7 @@
  *_pow_recursion - entery
  *@y: integer
  *@x: integer
- *Return: x raised to power y ,if y is null it returns -1
+ *Return: x raised to power y ,if y is null it returns error
  */
 int _pow_recursion(int x, int y)
 {
@@ -15,5 +15,4 @@ if (y != 0)
 {
 y--;
 return (x * _pow_recursion(x, y));
-}
-}
+}}
