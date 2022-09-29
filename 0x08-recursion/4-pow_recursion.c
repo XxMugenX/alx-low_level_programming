@@ -19,4 +19,6 @@ if (y != 0)
 {
 y--;
 return (x * _pow_recursion(x, y));
-}}
+}
+return (_pow_recursion(x, y));
+}
