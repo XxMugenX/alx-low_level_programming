@@ -20,6 +20,8 @@ dup = malloc(sizeof(char));
 
 dup = str;
 
+dup = '\0';
+
 return (dup);
 }
 return (dup);
