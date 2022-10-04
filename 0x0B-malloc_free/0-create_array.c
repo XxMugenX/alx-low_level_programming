@@ -22,7 +22,7 @@ return (NULL);
 }
 else
 {
-while (i <= size)
+while (i < size)
 {
 p[i] = c;
 i++;
