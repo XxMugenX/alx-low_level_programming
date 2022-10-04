@@ -10,7 +10,7 @@ char *create_array(unsigned int size, char c)
 {
 char *p;
 
-int i;
+unsigned int i;
 
 i = 0;
 
@@ -24,7 +24,7 @@ else
 {
 while (i <= size)
 {
-p[i] = c[i];
+p[i] = c;
 i++;
 }
 p[i] = '\0';
