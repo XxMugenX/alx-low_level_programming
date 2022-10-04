@@ -21,7 +21,7 @@ return (NULL);
 else
 {
 
-dup = malloc(i *sizeof(char));
+dup = malloc( i * sizeof(char));
 
 dup = str;
 
