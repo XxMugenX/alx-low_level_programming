@@ -16,6 +16,10 @@ i = 0;
 
 p = malloc(size * sizeof(*p));
 
+if (p == NULL)
+{
+return (NULL);
+}
 if (size == 0)
 {
 return (NULL);
