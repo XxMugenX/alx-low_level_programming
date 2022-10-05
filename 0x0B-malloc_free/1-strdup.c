@@ -23,8 +23,12 @@ return (NULL);
 else
 {
 
-dup = malloc((i + 1));
+dup = malloc((i + 1) * sizeof(*dup));
 
+if (dup == NULL)
+{
+return (NULL);
+}
 dup = str;
 
 dup = '\0';
