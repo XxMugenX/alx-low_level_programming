@@ -22,15 +22,13 @@ while (str[i] != '\0')
 {
 i++;
 }
-dup = malloc((i + 1) * sizeof(*dup));
+dup = malloc((i + 1) * (sizeof(*dup)));
 
 if (dup == NULL)
 {
 return (NULL);
 }
 dup = str;
-
-dup = '\0';
 
 return (dup);
 }
