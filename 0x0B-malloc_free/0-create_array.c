@@ -14,7 +14,7 @@ unsigned int i;
 
 i = 0;
 
-p = (char *) malloc(size * sizeof(char));
+p = malloc(size * sizeof(*p));
 
 if (size == 0)
 {
