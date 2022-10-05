@@ -8,7 +8,9 @@
 char *_strdup(char *str)
 {
 char *dup;
-int i;
+unsigned int i;
+
+i = 0;
 
 while (str[i] != '\0')
 {
@@ -21,7 +23,7 @@ return (NULL);
 else
 {
 
-dup = malloc(i *sizeof(char));
+dup = (char *) malloc(i *sizeof(char));
 
 dup = str;
 
