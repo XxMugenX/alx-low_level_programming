@@ -23,7 +23,7 @@ return (NULL);
 else
 {
 
-dup = (char *) malloc(i *sizeof(char));
+dup = (char *) malloc((i + 1) * sizeof(char));
 
 dup = str;
 
