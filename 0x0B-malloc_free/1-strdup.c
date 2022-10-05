@@ -9,7 +9,7 @@ char *_strdup(char *str)
 {
 char *dup;
 int i;
-
+int j;
 i = 0;
 
 if (str == NULL)
@@ -28,8 +28,11 @@ if (dup == NULL)
 {
 return (NULL);
 }
-dup = str;
-
+for (j = 0; str[j] != '\0'; j++)
+{
+dup[j] = str[j];
+}
+dup[i + 1] = '\0';
 return (dup);
 }
 }
