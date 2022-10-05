@@ -38,7 +38,7 @@ return (NULL);
 }
 i++;
 }
-for (i = 0; i < heigth; i++)
+for (i = 0; i < height; i++)
 {
 for (n = 0; n < width; n++)
 {
