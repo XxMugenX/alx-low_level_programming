@@ -8,7 +8,7 @@
 char *_strdup(char *str)
 {
 char *dup;
-unsigned int i;
+int i;
 
 i = 0;
 
@@ -32,5 +32,4 @@ dup = str;
 
 return (dup);
 }
-return (dup);
 }
