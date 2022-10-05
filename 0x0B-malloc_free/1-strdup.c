@@ -12,17 +12,16 @@ unsigned int i;
 
 i = 0;
 
-while (str[i] != '\0')
-{
-i++;
-}
 if (str == NULL)
 {
 return (NULL);
 }
 else
 {
-
+while (str[i] != '\0')
+{
+i++;
+}
 dup = malloc((i + 1) * sizeof(*dup));
 
 if (dup == NULL)
