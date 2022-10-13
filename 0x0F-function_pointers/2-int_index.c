@@ -13,6 +13,10 @@ int i;
 
 int sto;
 
+if (array == NULL || cmp == NULL)
+{
+return (-1);
+}
 if (size <= 0)
 {
 return (-1);
