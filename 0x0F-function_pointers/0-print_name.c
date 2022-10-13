@@ -13,5 +13,4 @@ return;
 }
 (*f)(name);
 
-return;
 }
