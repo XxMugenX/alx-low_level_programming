@@ -35,7 +35,7 @@ hex = *(unsigned char *)(f + i);
 
 printf("%.2x", hex);
 
-if (i < (atoi(argv[1]) - 1))
+if (i < atoi(argv[1]) - 1)
 {
 putchar(' ');
 }
