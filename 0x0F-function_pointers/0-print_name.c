@@ -13,5 +13,4 @@ if (f == NULL || name == NULL)
 return;
 }
 (*f)(name);
-
 }
