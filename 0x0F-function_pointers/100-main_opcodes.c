@@ -1,15 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
-/*
+/**
  *main - entry
- *@f: assumes main code
  *@argc: argument count
  *@argv: variable passed through input by user
  *Return: 0 on success, 1 if count isn't right, 2 if bytes are negative
  */
-int main(int argc ,char *argv[])
+int main(int argc, char *argv[])
 {
-int (*f)(int, char *);
+int (*f)(int, char **);
 
 int i = 0;
 int hex;
