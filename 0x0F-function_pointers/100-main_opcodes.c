@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-int (*f)(int, char **);
+int (*f)(int, char**);
 
 int i = 0;
 int hex;
@@ -17,14 +17,14 @@ if (argc != 2)
 {
 printf("Error\n");
 
-exit(-1);
+exit(1);
 }
 
 else if (atoi(argv[1]) < 0)
 {
 printf("Error\n");
 
-exit(-2);
+exit(2);
 }
 f = main;
 
