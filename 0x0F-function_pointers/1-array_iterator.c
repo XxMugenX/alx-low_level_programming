@@ -12,7 +12,7 @@ int i;
 
 if (array == NULL || action == NULL)
 {
-return (-1);
+return;
 }
 
 for (i = 0; i < size; i++)
