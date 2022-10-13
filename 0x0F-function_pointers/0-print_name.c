@@ -7,15 +7,8 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-while (*name != '\0')
-{
-(*f)(*name);
-_putchar(name);
 
-*name++;
-}
-_putchar('\0');
+(*f)(*name);
 
 return (0);
-
 }
