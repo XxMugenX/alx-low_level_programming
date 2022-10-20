@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
  *main - entry
- *Return: returns 0
+ *Return: returns nothing
  */
 int main(void)
 {
-printf("%s",__FILE__);
-
-putchar('\n');
+printf("%s\n",__FILE__);
 
 return (0);
 }
