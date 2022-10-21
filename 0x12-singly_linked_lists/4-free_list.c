@@ -6,7 +6,7 @@
  */
 void free_list(list_t *head)
 {
-list *temp;
+list *tmp;
 
 while (head)
 {
