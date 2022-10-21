@@ -1,4 +1,5 @@
 #include "list.h"
+#include <stdio.h>
 /**
  *print_list - prints elements in a linked list
  *@h: the list
@@ -20,7 +21,7 @@ else
 
 printf("[%d] %s\n", h->len, h->str);
 
-node++;
+nodes++;
 
 h = h->next;
 
